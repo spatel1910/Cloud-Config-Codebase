@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/spatel1910/Microservices
+          search-paths:
+            - '{application}'
+        default-label: main
+server:
+  port: 8081
